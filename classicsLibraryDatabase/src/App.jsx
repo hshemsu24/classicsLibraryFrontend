@@ -102,9 +102,24 @@ function App() {
   const filteredBooks = books;
 
   const handleSearch = () => {
-    
+    console.log('searching');
 
+    const title = document.getElementById('title').value;
+    const author = document.getElementById('author').value;
+    const editor = document.getElementById('editor').value;
+
+    console.log(title);
+    console.log(author);
+    console.log(editor);
+
+  
   }
+
+
+
+
+
+
 
   return (
     <>
